@@ -39,6 +39,7 @@ jobs:
         python3 generate_images.py
       env:
         USER: "Henderson-da-rocha-porfirio"
+        GH_USERNAME: "Henderson-da-rocha-porfirio"
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EXCLUDED: ${{ secrets.EXCLUDED }}
